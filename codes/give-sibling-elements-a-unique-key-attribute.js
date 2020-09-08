@@ -1,4 +1,4 @@
-const frontEndFrameworks = [
+let frontEndFrameworks = [
   'React',
   'Angular',
   'Ember',

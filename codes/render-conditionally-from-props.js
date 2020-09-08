@@ -6,7 +6,6 @@ class Results extends React.Component {
     return (
       <h1>
       {
-        /* change code here */
         this.props.fiftyFifty ? "You win!" : "You Lose!"
       }
       </h1>
@@ -32,9 +31,7 @@ class GameOfChance extends React.Component {
     return (
       <div>
         <button onClick={this.handleClick}>Play Again</button>
-        { /* change code below this line */ }
         <Results fiftyFifty={expression} />
-        { /* change code above this line */ }
         <p>{'Turn: ' + this.state.counter}</p>
       </div>
     );

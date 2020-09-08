@@ -1,4 +1,8 @@
-// React provides a method for updating component state called setState. You call the setState method within your component class like so: this.setState(), passing in an object with key-value pairs. The keys are your state properties and the values are the updated state data.
+/* React provides a method for updating component state
+called setState. You call the setState method within 
+your component class like so: this.setState(), passing 
+in an object with key-value pairs. The keys are your 
+state properties and the values are the updated state data.*/
 
 class MyComponent extends React.Component {
   constructor(props) {
@@ -9,11 +13,9 @@ class MyComponent extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
   handleClick() {
-    // change code below this line
     this.setState({
       name: 'React Rocks!'
     });
-    // change code above this line
   }
   render() {
     return (

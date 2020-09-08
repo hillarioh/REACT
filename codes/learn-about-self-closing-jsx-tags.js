@@ -1,4 +1,13 @@
-// n JSX, the rules are a little different. Any JSX element can be written with a self-closing tag, and every element must be closed. The line-break tag, for example, must always be written as <br /> in order to be valid JSX that can be transpiled. A <div>, on the other hand, can be written as <div /> or <div></div>. The difference is that in the first syntax version there is no way to include anything in the <div />. You will see in later challenges that this syntax is useful when rendering React components.
+/* n JSX, the rules are a little different. Any JSX 
+element can be written with a self-closing tag, and 
+every element must be closed. The line-break tag, for 
+example, must always be written as <br /> in order to 
+be valid JSX that can be transpiled. A <div>, on the 
+other hand, can be written as <div /> or <div></div>. 
+The difference is that in the first syntax version there 
+is no way to include anything in the <div />. You will 
+see in later challenges that this syntax is useful when 
+rendering React components.*/
 
 const JSX = (
   <div>

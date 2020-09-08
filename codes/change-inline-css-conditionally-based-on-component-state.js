@@ -13,11 +13,9 @@ class GateKeeper extends React.Component {
     let inputStyle = {
       border: '1px solid black'
     };
-    // change code below this line
     if(this.state.input.length > 15){
     inputStyle = { border: '3px solid red'};
     }
-    // change code above this line
     return (
       <div>
         <h3>Don't Type Too Much:</h3>

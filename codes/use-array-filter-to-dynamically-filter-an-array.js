@@ -8,7 +8,7 @@ class MyComponent extends React.Component {
           online: true
         },
         {
-          username: 'Alan',
+          username: 'Alany',
           online: false
         },
         {

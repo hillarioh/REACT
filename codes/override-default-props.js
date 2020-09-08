@@ -3,7 +3,7 @@ const Items = (props) => {
 }
 
 Items.defaultProps = {
-  quantity: 0
+  quantity: 2
 }
 
 class ShoppingCart extends React.Component {
@@ -11,8 +11,6 @@ class ShoppingCart extends React.Component {
     super(props);
   }
   render() {
-    { /* change code below this line */ }
     return <Items quantity={10} />
-    { /* change code above this line */ }
   }
 };

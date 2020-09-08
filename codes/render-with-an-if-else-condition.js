@@ -12,8 +12,6 @@ class MyComponent extends React.Component {
     }));
   }
   render() {
-    // change code below this line
-
     if(this.state.display){
       return (
        <div>

@@ -1,4 +1,12 @@
-// Once you are finished you will be able to type in the input field in the GetInput component, which then calls the handler method in its parent via props. This updates the input in the state of the parent, which is passed as props to both children. Observe how the data flows between the components and how the single source of truth remains the state of the parent component. Admittedly, this example is a bit contrived, but should serve to illustrate how data and callbacks can be passed between React components.
+/* Once you are finished you will be able to type in the
+ input field in the GetInput component, which then calls 
+the handler method in its parent via props. This updates 
+the input in the state of the parent, which is passed as 
+props to both children. Observe how the data flows between 
+the components and how the single source of truth remains 
+the state of the parent component. Admittedly, this example 
+is a bit contrived, but should serve to illustrate how data 
+and callbacks can be passed between React components.*/
 
 class MyApp extends React.Component {
   constructor(props) {
@@ -16,10 +24,8 @@ class MyApp extends React.Component {
   render() {
     return (
        <div>
-        { /* change code below this line */ }
         <GetInput input={this.state.inputValue} handleChange={this.handleChange}/>
         <RenderInput input={this.state.inputValue}  />
-        { /* change code above this line */ }
        </div>
     );
   }

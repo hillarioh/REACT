@@ -1,4 +1,4 @@
-// change code below this line
+/* change code below this line*/
 class MyComponent extends React.Component{
   constructor(props){
     super(props);
