@@ -1,5 +1,5 @@
 # REACT
-REACT NOTES
+REACT NOTES - FREECODE CAMP
 
 1. Create a simple jsx. [source](https://github.com/hillarioh/REACT/blob/master/codes/create-a-simple-jsx-element.js)
 2. create a complex jsx element. [source](https://github.com/hillarioh/REACT/blob/master/codes/create-a-simple-jsx-element.js)
